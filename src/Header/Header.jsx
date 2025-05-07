@@ -5,7 +5,7 @@ import { Container } from "../Container/Container";
 import { FaSearch } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 
-export class Header extends Component {
+ class Header extends Component {
   render() {
     return (
       <header>
@@ -13,22 +13,22 @@ export class Header extends Component {
           <span className="header__title">Pod's</span>
           <ul className="header__list">
             <li className="header__item">
-              <a href="#home" className="header__link">
+              <a href="/" className="header__link">
                 Головна
               </a>
             </li>
             <li className="header__item">
-              <a href="#categories" className="header__link">
+              <a href="/categories" className="header__link">
                 Категорії
               </a>
             </li>
             <li className="header__item">
-              <a href="#contact" className="header__link">
+              <a href="#" className="header__link">
                 Контакти
               </a>
             </li>
             <li className="header__item">
-              <a href="#about" className="header__link">
+              <a href="#" className="header__link">
                 Про нас
               </a>
             </li>
@@ -45,7 +45,7 @@ export class Header extends Component {
             </button>
           </div>
           <div className="header__cart">
-            <a href="#cart" className="header__link">
+            <a href="#" className="header__link">
               <FaCartShopping />
             </a>
           </div>
@@ -62,3 +62,6 @@ export class Header extends Component {
     );
   }
 }
+
+
+export default Header;

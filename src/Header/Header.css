@@ -37,6 +37,10 @@ header {
   margin-left: 24px;
 }
 
+.header__search:hover {
+  background-color: #e5e7eb;
+}
+
 .header__input {
   border: none;
   background: transparent;
@@ -53,6 +57,10 @@ header {
   border-radius: 4px;
   padding: 8px 16px;
   cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: #2563eb;
 }
 
 .header__avatar {
@@ -78,3 +86,4 @@ header {
     margin-left: 24px;
     height: 100%;
 }
+
