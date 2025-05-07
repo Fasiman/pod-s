@@ -55,6 +55,14 @@
     color: rgb(255, 84, 84);
 }
 
+.goods__cart:hover{
+    color: rgb(37, 99, 235);
+}
+.goods__heart:hover{
+    color: rgb(239, 68, 68);
+}
+
+
 .goods__more{
     position: absolute;
     right: 16px;
@@ -62,6 +70,10 @@
     border: none;
     font-size: 24px;
     margin-left: auto;
+}
+
+.goods__more:hover{
+    color: rgb(37, 99, 235);
 }
 
 

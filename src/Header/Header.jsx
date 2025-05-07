@@ -22,7 +22,7 @@ import { FaCartShopping } from "react-icons/fa6";
                 Категорії
               </a>
             </li>
-            <li className="header__item">
+            {/* <li className="header__item">
               <a href="#" className="header__link">
                 Контакти
               </a>
@@ -31,7 +31,7 @@ import { FaCartShopping } from "react-icons/fa6";
               <a href="#" className="header__link">
                 Про нас
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="header__search">
