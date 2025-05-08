@@ -3,12 +3,11 @@ import { Component } from 'react';
 
 import Goods from './components/Goods/Goods';
 
-class Home extends Component {
-  render() {
+const Home = () => {
     return (
      <Goods/>
     );
-  }
+  
 }
 
 

@@ -3,12 +3,11 @@ import { Component } from "react";
 
 import BaseCategories from "./Components/BaseCategories/BaseCategories";
 
-class Categories extends Component {
-  render() {
+const Categories = () => {
     return (
       <BaseCategories />
     );
-  }
+  
 }
 
 

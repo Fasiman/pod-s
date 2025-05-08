@@ -5,8 +5,10 @@ import { Container } from "../Container/Container";
 import { FaSearch } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 
- class Header extends Component {
-  render() {
+import { handleOpenCart } from "../Modals/Cart/Cart";
+
+ const Header = () => {
+
     return (
       <header>
         <Container>
@@ -18,7 +20,7 @@ import { FaCartShopping } from "react-icons/fa6";
               </a>
             </li>
             <li className="header__item">
-              <a href="/categories" className="header__link">
+              <a href="/all-categories-goods" className="header__link">
                 Категорії
               </a>
             </li>
@@ -45,9 +47,9 @@ import { FaCartShopping } from "react-icons/fa6";
             </button>
           </div>
           <div className="header__cart">
-            <a href="#" className="header__link">
+            <button onClick={handleOpenCart} className="header__link">
               <FaCartShopping />
-            </a>
+            </button>
           </div>
 
           <div className="header__avatar">
@@ -60,7 +62,7 @@ import { FaCartShopping } from "react-icons/fa6";
         </Container>
       </header>
     );
-  }
+  
 }
 
 

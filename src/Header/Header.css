@@ -23,6 +23,8 @@ header {
 
 .header__link {
   color: #4b5563;
+  background: none;
+  border: none;
 }
 
 .header__link:hover {
@@ -52,16 +54,17 @@ header {
 }
 
 .header__button {
-  background-color: #3b82f6;
-  color: white;
+  background:none;
+  color: #4b5563;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 8px 16px;
+  font-size: 16px;
   cursor: pointer;
 }
 
 .header__button:hover {
-  background-color: #2563eb;
+  color: black;
 }
 
 .header__avatar {

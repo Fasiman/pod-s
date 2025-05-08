@@ -9,8 +9,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 
 
-class Goods extends Component {
-  render() {
+const Goods = () => {
     return (
       <section className="goods">
         <Container>
@@ -49,7 +48,7 @@ class Goods extends Component {
         </Container>
       </section>
     );
-  }
+  
 }
 
 export default Goods;
